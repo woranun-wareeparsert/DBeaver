@@ -43,7 +43,7 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
       <td><center><?php echo $Result['weight'];?></center></td>
       <td><center><?php echo $Result['height'];?></center></td>
       <td><center><?php echo $Result['bmi'];?></center></td>
-      <td><?php echo '<a href="delete.php?id='.$Result['ID'].'">
+      <td><?php echo '<a href="delete-exam.php?id='.$Result['ID'].'">
       Delete</a>'?></td>
     </tr>
   <?php
