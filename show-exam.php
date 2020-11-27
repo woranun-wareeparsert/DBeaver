@@ -11,7 +11,7 @@
 <body>
 <?php
 $conn = mysqli_init();
-mysqli_real_connect($conn, 'itf-exam.mysql.database.azure.com', 'itf@itf-exam' , '159Pook159', 'new-exam', 3306);
+mysqli_real_connect($conn, 'itf-exam.mysql.database.azure.com', 'itf@itf-exam' , '159Pook159', 'ift', 3306);
 if (mysqli_connect_errno($conn))
 {
     die('Failed to connect to MySQL PLEASE TRY AGAIN !: '.mysqli_connect_error());
